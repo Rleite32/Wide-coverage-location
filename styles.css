@@ -1,0 +1,144 @@
+* {
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 178px 42px;
+}
+
+.link-header {
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.875px;
+text-align: center;
+color: #17233D;
+cursor: pointer;
+margin-right: 32px;
+}
+
+.button-header {
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.logo-image {
+    width: 534px;
+    height: 467px;
+    margin-left: 121px;  
+    display: inline-block 
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #6fbf44;
+    cursor: pointer; 
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        margin: 17px 0 76px 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0 0 0 227px;
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        background: #6fbf44;
+        border: 1px solid #4cb538;
+        font-size: 12px;
+        font-weight: 500px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+    .logo-image {
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin: 490px 39px 22px 39px;  
+        display: block;
+    }
+
+    section {
+        position: absolute;
+        display: block;
+        margin: 0 43px 59px 43px;
+        width: 304px;
+        text-align: center;
+    }
+
+    h1 {
+        font-weight: 700px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        color: #161A49;
+    }
+
+    p {
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        text-align: center;
+    }
+
+    .link-section {
+        width: 112px;
+        height: 27px;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6fbf44;
+        cursor: pointer; 
+    }
+
+    
+}
+
+
